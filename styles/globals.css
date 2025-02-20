@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+li::marker {
+  color: #754305;
+}
+
+ul::marker {
+  color: #754305;
+}
+
+@media screen and (max-width: 768px) {
+    .flex {
+      flex-direction: row;
+    }
+}
+ 
+@media (max-width: 768px) {
+    nav {
+        /* Adjust styles for small screens */
+        justify-content: center;
+    }
+    
+    body {
+      flex-direction: column;
+    }
+
+    .pt-4 {
+      /* Adjust the padding for the header as needed */
+      padding-top: 0.25em;
+      position: absolute;
+      left: 50%;
+      margin-left: 0;
+      padding-left: 0;
+      transform: translateX(-50%);
+
+    }
+
+    .pt-28 {
+      margin: auto;
+      padding-top: 14em;
+      padding-left: 2em;
+      padding-right: 2em;
+    }
+    
+
+  }
+  
