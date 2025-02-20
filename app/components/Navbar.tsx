@@ -11,7 +11,7 @@ const navItems = {
     name: 'essays',
   },
   '/projects': {
-    name: 'project',
+    name: 'projects',
   },
 };
 
